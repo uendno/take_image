@@ -15,6 +15,7 @@
 		7A5AD8701CF84EA700D0BDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5AD86E1CF84EA700D0BDAC /* LaunchScreen.storyboard */; };
 		7A5AD87B1CF84EA700D0BDAC /* take_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AD87A1CF84EA700D0BDAC /* take_imageTests.m */; };
 		7A5AD8861CF84EA700D0BDAC /* take_imageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AD8851CF84EA700D0BDAC /* take_imageUITests.m */; };
+		7A5AD8951CF8582600D0BDAC /* TakePhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AD8941CF8582600D0BDAC /* TakePhotoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7A5AD8811CF84EA700D0BDAC /* take_imageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = take_imageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5AD8851CF84EA700D0BDAC /* take_imageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = take_imageUITests.m; sourceTree = "<group>"; };
 		7A5AD8871CF84EA700D0BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5AD8931CF8582600D0BDAC /* TakePhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoController.h; sourceTree = "<group>"; };
+		7A5AD8941CF8582600D0BDAC /* TakePhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7A5AD86E1CF84EA700D0BDAC /* LaunchScreen.storyboard */,
 				7A5AD8711CF84EA700D0BDAC /* Info.plist */,
 				7A5AD8601CF84EA700D0BDAC /* Supporting Files */,
+				7A5AD8931CF8582600D0BDAC /* TakePhotoController.h */,
+				7A5AD8941CF8582600D0BDAC /* TakePhotoController.m */,
 			);
 			path = take_image;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					7A5AD85C1CF84EA600D0BDAC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S8Q2VYLKGV;
 					};
 					7A5AD8751CF84EA700D0BDAC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +279,7 @@
 				7A5AD8681CF84EA700D0BDAC /* ViewController.m in Sources */,
 				7A5AD8651CF84EA700D0BDAC /* AppDelegate.m in Sources */,
 				7A5AD8621CF84EA700D0BDAC /* main.m in Sources */,
+				7A5AD8951CF8582600D0BDAC /* TakePhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = take_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.savvycomsoftware.take-image";
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = take_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.savvycomsoftware.take-image";

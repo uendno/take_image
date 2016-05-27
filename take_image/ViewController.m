@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)takePhoto:(UIButton *)sender {
+}
+
+- (IBAction)selectPhoto:(UIButton *)sender {
+}
 @end
